@@ -29,7 +29,6 @@ public class Game {
     @Column(columnDefinition = "TEXT")
     private String longDescription;
 
-
     public Game(){
 
     }
@@ -142,7 +141,5 @@ public class Game {
         } else if (!id.equals(other.id))
             return false;
         return true;
-    }
-
-    
+    }    
 }
